@@ -1,0 +1,278 @@
+[ejs.landing]
+updateAvailableTooltip = "Nouvelle version du launcher disponible."
+usernamePlaceholder = "Pseudo"
+usernameEditButton = "Paramètres"
+settingsTooltip = "Paramètres"
+serverStatus = "Serveur:"
+serverStatusPlaceholder = "DOWN"
+newsButton = "Articles GalaxyQuest"
+launchButton = "JOUER"
+launchButtonPlaceholder = "&#8226; Merci de contatcer le staff (Err 001)"
+launchDetails = "Votre vaisseau se préapre.."
+newsNavigationStatus = "{currentPage} sur {totalPages}"
+newsErrorLoadSpan = "En recherche d'articles.."
+newsErrorFailedSpan = "Erreur lors du chargement des articles (Err 002)"
+newsErrorRetryButton = "Réessayer "
+newsErrorNoneSpan = "La galaxie semble bien calme ces derniers temps.."
+
+[ejs.login]
+loginCancelText = "Annuler"
+loginSubheader = "Connexion GalaxyQuest"
+loginEmailError = "* Valeur invalide"
+loginEmailPlaceholder = "Email ou nom d'utilisateur"
+loginPasswordError = "* Obligé"
+loginPasswordPlaceholder = "MOT DE PASSE"
+loginForgotPasswordLink = "https://galaxyquest.fr/user/password/reset"
+loginForgotPasswordText = "Mot de passe oublié ?"
+loginRememberMeText = "Se rappeler de moi"
+loginButtonText = "Se connecter"
+loginNeedAccountLink = "https://GalaxyQuest.fr/user/register/"
+loginNeedAccountText = "Créer un compte."
+loginPasswordDisclaimer1 = "Votre mot de passe est envoyé à GalaxyQuest et n'est jamais stoqué. Toutes vos données sont traités de façons sécurisés."
+loginPasswordDisclaimer2 = "GalaxyQuest n'est pas affilié à Mojang AB."
+
+[ejs.loginOptions]
+loginOptionsTitle = "Connexion"
+loginWithMicrosoft = "Se connecter avec un compte <b>Microsoft</b>"
+loginWithGalaxyQuest = "Se connecter avec un compte <b>GalaxyQuest</b>"
+CancelButton = "Annuler"
+
+[ejs.overlay]
+accountSelectHeader = "Sélectionner un compte"
+accountSelectConfirm = "Sélectionner"
+accountSelectCancel = "Annuler"
+
+[ejs.settings]
+navHeaderText = "Paramètres"
+navAccount = "Compte"
+navMinecraft = "Minecraft"
+navMods = "Mods"
+navJava = "Java"
+navLauncher = "Launcher"
+navAbout = "À propos du Launcher"
+navUpdates = "Mise à jours"
+navDone = "Enregistrer"
+tabAccountHeaderText = "Paramètres du compte"
+tabAccountHeaderDesc = "Gérer les comptes du launcher."
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+"
+galaxyquestAccount = "GalaxyQuest"
+addMojangAccount = "+"
+minecraftTabHeaderText = "Paramètres Minecraft"
+minecraftTabHeaderDesc = "Options relier au lancement du jeu."
+gameResolutionTitle = "Résolution du jeu."
+launchFullscreenTitle = "Lancer en plein écran."
+autoConnectTitle = "Se connecter automatiquement a GalaxyQuest au lancement."
+launchDetachedTitle = "Lancer Minecraft détaché du Launcher."
+launchDetachedDesc = "Si Minecraft n'est pas détaché, fermmer le launcher fermera aussi Minecraft."
+tabModsHeaderText = "Paramètres des Mods"
+tabModsHeaderDesc = "Activer ou désactiver des mods."
+optionalMods = "Mods paramétrables"
+shaderpacks = "Packs de Shaders"
+shaderpackDesc = "Activer ou désactiver les shaders"
+selectShaderpack = "Sélectionner le Shaderpack"
+tabJavaHeaderText = "Paramètres Java"
+tabJavaHeaderDesc = "Gérer la configuration java (avancé)."
+memoryTitle = "Mémoire"
+maxRAM = "RAM Maximum"
+minRAM = "RAM Minimum"
+memoryDesc = "La valeur recommandé minimum est de 4Go de Ram."
+memoryTotalTitle = "Total"
+memoryAvailableTitle = "Disponible"
+javaExecutableTitle = "Executable Java"
+javaExecSelDialogTitle = "Choisir un executable Java"
+javaExecSelButtonText = "Choisir le fichier"
+javaExecDesc = "L'executable est validé avant le lancement."
+javaPathDesc = "Le chemin d'accès doit finir par <strong>{pathSuffix}</strong>."
+jvmOptsTitle = "Paramètres additionels de la JVM"
+jvmOptsDesc = "Options à donner à la JVM au moment du lancement. <em>-Xms</em> and <em>-Xmx</em> Ne doivent pas être inclus."
+launcherTabHeaderText = "Options du Launcher"
+launcherTabHeaderDesc = "Options liées au launcher lui même."
+allowPrereleaseTitle = "Autoriser les versions bêta."
+allowPrereleaseDesc = "Les versions Bêta peuvent avoir des nouvelles fonctionsqui n'ont pas été totalement tester.<br>Ce sera toujours le cas avec les versions Bêta."
+dataDirectoryTitle = "Dossier des données"
+selectDataDirectory = "Sélectionner le dossier des données"
+chooseFolder = "Choisir le dossier"
+aboutTabHeaderText = "À propos"
+aboutTabHeaderDesc = "Voir les informations et changelogs de la version actuelle."
+aboutTitle = "GalaxyQuest"
+stableRelease = "Version stable"
+versionText = "Version "
+sourceGithub = "Source (GitHub)"
+support = "Support"
+devToolsConsole = "Console de déboggage"
+releaseNotes = "Notes de mise à jour"
+changelog = "Changelog"
+noReleaseNotes = "Pas de note de mise à jour 😭"
+viewReleaseNotes = "Voir les notes de mise à jour sur GitHub"
+launcherUpdatesHeaderText = "Mises à jour du launcher"
+launcherUpdatesHeaderDesc = "Télécharger, installer les mises à jour du launcher."
+checkForUpdates = "Vérification pour de nouvelles mises à jour"
+whatsNew = "Quelles nouvautées"
+updateReleaseNotes = "Notes de mises à jour"
+
+[ejs.waiting]
+waitingText = "En attente de réponse de Microsoft.."
+
+[ejs.welcome]
+continueButton = "CONTINUER"
+
+
+[js.discord]
+waiting = "En attente du client.."
+state = "GalaxyQuest"
+
+[js.index]
+microsoftLoginTitle = "Connexion Microsoft"
+microsoftLogoutTitle = "Déconnexion Microsoft"
+
+[js.login]
+login = "CONNEXION"
+loggingIn = "CONNEXION.."
+success = "CONNECTÉ"
+tryAgain = "Réessayer "
+
+[js.login.error]
+invalidValue = "* Valeure invalide"
+requiredValue = "* Requis"
+
+[js.login.error.unknown]
+title = "Mauvais identifiants/Mot de passe"
+desc = "Si les données fournis sont correctes, merci de contacter le <a href='https://support.GalaxyQuest.fr/'>support</a>."
+
+[js.landing.launch]
+pleaseWait = "Merci de patienter.."
+failureTitle = "Erreur lors du lancement"
+failureText = "Merci de contacter le <a href='https://support.GalaxyQuest.fr/'>support</a>."
+okay = "Okay"
+
+[js.landing.selectedAccount]
+noAccountSelected = "Pas de compte sélectionner"
+
+[js.landing.selectedServer]
+noSelection = "Pas de serveur sélectionner"
+loading = "Chargement.."
+
+[js.landing.serverStatus]
+server = "SERVEUR"
+offline = "HORS LIGNE"
+players = "JOUEURS"
+
+[js.landing.systemScan]
+checking = "Vérification des informations système.."
+noCompatibleJava = "Pas d'instalation Java compatible trouvé."
+installJavaMessage = "Pour rejoindre GalaxyQuest, vous devez avoir une instalation 64-bits de Java {major}. Voulez vous que nous l'installion pour vous?"
+installJava = "Installez moi Java !"
+installJavaManually = "Je préfaire le faire moi même."
+javaDownloadPrepare = "Préparatoin de l'instalation de Java.."
+javaDownloadFailureTitle = "Erreur lors de l'installation de Java"
+javaDownloadFailureText = "Vous pouvez contacter le <a href='https://support.GalaxyQuest.fr/'>support</a>."
+javaRequired = "Java est requis <br>pour lancer"
+javaRequiredMessage = 'Une installation de Java {major} x64 est requis pour lancer le jeu.'
+javaRequiredDismiss = "Je comprends"
+javaRequiredCancel = "Retour"
+
+[js.landing.downloadJava]
+findJdkFailure = "Impossible de trouver une version de OpenJDK."
+javaDownloadCorruptedError = "Le JDK téléchargé est peut être corompus."
+extractingJava = "Extraction de Java"
+javaInstalled = "Java installé!"
+
+[js.landing.dlAsync]
+loadingServerInfo = "Chargement des infromations serveur.."
+fatalError = "Erreur fatale"
+unableToLoadDistributionIndex = "Impossible de charger une version de la distribution."
+pleaseWait = "Merci de patienter.."
+errorDuringLaunchTitle = "Erreur lors du lancement"
+seeConsoleForDetails = "Merci de contacter le <a href='https://support.GalaxyQuest.fr/'>support</a>"
+validatingFileIntegrity = "Vérification de l'intégrité des fichiers.."
+errorDuringFileVerificationTitle = "Erreur lors de la vérification des fichiers"
+downloadingFiles = "Téléchargement des fichiers.."
+errorDuringFileDownloadTitle = "Erreur lors du téléchargement des fichiers"
+preparingToLaunch = "Préparation du lancement.."
+launchingGame = "Lancement du jeu.."
+launchWrapperNotDownloaded = "Le fichier principal LaunchWrapper, n'a pas réussit à ce télécharger correctement. Le jeu ne peut donc pas se lancer.<br><br>If you have time, please <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
+doneEnjoyServer = "Fini. Passez un bon voyage!"
+checkConsoleForDetails = "Merci de contacter le <a href='https://support.GalaxyQuest.fr/'>support</a>"
+
+[js.landing.news]
+checking = "À la recherche d'articles."
+
+[js.landing.discord]
+loading = "Chargement du jeu.."
+joining = "Voyage dans la galaxie!"
+joined = "Explore la galaxies!"
+
+[js.overlay]
+dismiss = "Ok"
+
+[js.settings.fileSelectors]
+executables = "Executables"
+allFiles = "Tous les fichiers"
+
+[js.settings.mstfLogin]
+errorTitle = "Quelque chose c'est mal passé..."
+errorMessage = "Authentification Microsoft ratée, merci de réessayer."
+okButton = "Ok"
+
+[js.settings.mstfLogout]
+errorTitle = "Quelque chose c'est mal passé..."
+errorMessage = "Déconexion Microsoft ratée, merci de réessayer."
+okButton = "Ok"
+
+[js.settings.authAccountSelect]
+selectButton = "Sélectionner un compte"
+selectedButton = "Compte sélectionné &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "Attention<br>Ce compte est votre dernier compte."
+lastAccountWarningMessage = "Vous devez être connecter pour jouer à GalaxyQuest.<br><br>Vous êtes sur de vouloir vous déconnectere ?"
+confirmButton = "Oui, je le veux"
+CancelButton = "Annuler"
+
+[js.settings.authAccountPopulate]
+username = "Nom d'utilisateur"
+uuid = "UUID"
+selectAccount = "Sélectionner ce compte"
+selectedAccount = "Compte sélectionné ✓"
+logout = "Se déconnecter"
+
+[js.settings.serverListing]
+mainServer = "Serveur Principal"
+
+[js.settings.java]
+selectedJava = "Sélectionner: Java {version} ({vendor})"
+invalidSelection = "Sélection Invalide."
+requiresJava = "Java {major} x64 est requis."
+availableOptions = "Options disponibles pour Java {major} (HotSpot VM)"
+
+[js.settings.about]
+preReleaseTitle = "Bêta"
+stableReleaseTitle = "Version Stable"
+releaseNotesFailed = "Impossible de charger les notes de la version."
+
+[js.settings.updates]
+newReleaseTitle = "Nouvelle version disponible !"
+newPreReleaseTitle = "Nouvelle version bêta disponible !"
+downloadingButton = "Téléchargement.."
+downloadButton = 'Télécharger depuis Github <span style="font-size: 10px;color: gray;text-shadow: none !important;">Veuillez fermer le launcher et lancer le fichier .dmg</span>'
+latestVersionTitle = "Vous utilisez la dernière version"
+checkForUpdatesButton = "Vérification de mise à jour"
+checkingForUpdatesButton = "Vérification de mise à jour.."
+
+[js.uibinder.startup]
+fatalErrorTitle = "Erreur fatale: Impossible de charger la distribution."
+fatalErrorMessage = "Le fichier de distribution est un fichier esentiel qui fourni les informations sur les derniers mods et mise à jour. Le launcher ne peut pas se lancer sans ce fichier."
+closeButton = "Fermer le launcher"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "Impossible de raffraichir la connexion"
+failedMessage = "Impossible de raffraichir la connexion pour <strong>{account}</strong>. Merci de sélectionner un autre compte ou de vous reconnecter."
+failedMessageSelectAnotherAccount = "Impossible de raffraichir la connexion pour <strong>{account}</strong>. Merci de vous reconnecter."
+loginButton = "Se connecter"
+selectAnotherAccountButton = "Sélectionner un autre compte."
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "Vérification des mise à jour..."
+installNowButton = "Installer maintenant."
+checkForUpdatesButton = "Vérifier les mises à jour."
