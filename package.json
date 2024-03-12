@@ -1,9 +1,9 @@
 {
-  "name": "helioslauncher",
+  "name": "hetonialauncher",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "productName": "HetoniaV2 Launcher",
+  "description": "Launcher Minecraft Hetonia",
+  "author": "lelapin2 (https://github.com/lapin360/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
