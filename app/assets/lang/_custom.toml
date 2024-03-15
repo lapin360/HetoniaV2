@@ -1,20 +1,20 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "GalaxyQuest"
+title = "HetoniaV2"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/mc-galaxyquest/launcher"
-mediaTwitterURL = "https://twitter.galaxyquest.fr/"
-mediaInstagramURL = "https://instagram.galaxyquest.Fr/"
-mediaYouTubeURL = "https://youtube.galaxyquest.fr/"
-mediaDiscordURL = "https://discord.gg/galaxyquest"
+mediaGitHubURL = "https://github.com/HetoniaV2/launcher"
+mediaTwitterURL = "https://twitter.hetonia.fr/"
+mediaInstagramURL = "https://instagram.hetonia.Fr/"
+mediaYouTubeURL = "https://youtube.hetonia.fr/"
+mediaDiscordURL = "https://dsc.gg/hetonia"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/mc-galaxyquest/launcher"
-supportLink = "https://support.galaxyquest.fr"
+sourceGithubLink = "https://github.com/HetoniaV2/launcher"
+supportLink = "https://hetonia.fr/support"
 
 [ejs.welcome]
-welcomeHeader = "Rejoignez GalaxyQuest !"
-welcomeDescription = "Galaxyquest est un serveur futuriste pvp-faction moddé sur le thème de l'espace. Rejoignez le serveur pour vous plonger dans l'aventure !"
-welcomeDescCTA = "Faites décoler votre vaisseau saptial."
+welcomeHeader = "Rejoignez HetoniaV2 !"
+welcomeDescription = "HetoniaV2, Venez d'écouvrire la V2 de Hetonia avec ses ajoutes incroyable, Hétonia est un serveur minecraft de type survie custom et mini-jeux !"
+welcomeDescCTA = "Rejoingnez l'aventure !."

@@ -1,13 +1,13 @@
 {
-  "name": "galaxyquest",
+  "name": "HetoniaV2",
   "version": "1.0.0",
-  "productName": "GalaxyQuest",
-  "description": "Launcher pour le serveur de GalaxyQuest",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), Ulysse2211 et Pierre",
+  "productName": "HetoniaV2",
+  "description": "V2 du launcher Hetonia",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), launcher-by lelapin2",
   "license": "MIT",
   "homepage": "https://galaxyquest.fr",
   "bugs": {
-    "url": "https://support.galaxyquest.fr/"
+    "url": "https://hetonia.fr/support/"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mc-galaxyquest/launcher.git"
+    "url": "git+https://github.com/hetoniav2/launcher.git"
   }
 }

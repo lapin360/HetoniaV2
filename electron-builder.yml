@@ -1,8 +1,8 @@
-appId: 'galaxyquest'
-productName: 'GalaxyQuest Launcher'
+appId: 'hetoniav2'
+productName: 'HetoniaV2 Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2024 GalaxyQuest'
+copyright: 'Copyright © 2024 HetoniaStudio'
 
 asar: true
 compression: 'maximum'
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'deb'
-  maintainer: 'GalaxyQuest'
-  vendor: 'GalaxyQuest'
-  synopsis: 'GalaxyQuest Launcher'
-  description: 'Launcher pour le serveur GalaxyQuest'
+  maintainer: 'HetoniaV2'
+  vendor: 'HetoniaV2'
+  synopsis: 'HetoniaV2 Launcher'
+  description: 'HetoniaV2 Launcher'
   category: 'Game'
 
 
