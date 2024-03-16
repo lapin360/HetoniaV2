@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 appId: 'hetoniav2'
 productName: 'HetoniaV2 Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2024 HetoniaStudio'
+=======
+appId: 'hetonialauncher'
+productName: 'hetonia Launcher'
+artifactName: '${productName}-setup-${version}.${ext}'
+
+copyright: 'Copyright © 2018-2024 Daniel Scalzi'
+>>>>>>> 4a3e464b8d5740fd43bbb2e00d595769d15a220c
 
 asar: true
 compression: 'maximum'
