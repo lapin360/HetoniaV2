@@ -1,6 +1,6 @@
 const loginOptionsCancelContainer = document.getElementById('loginOptionCancelContainer')
 const loginOptionMicrosoft = document.getElementById('loginOptionMicrosoft')
-const loginOptionGalaxyQuest = document.getElementById('loginOptionHetoniaV2');
+const loginOptionHetonia = document.getElementById('loginOptionHetonia');
 const loginOptionsCancelButton = document.getElementById('loginOptionCancelButton')
 
 let loginOptionsCancellable = false
@@ -28,7 +28,7 @@ loginOptionMicrosoft.onclick = (e) => {
     })
 }
 
-loginOptionGalaxyQuest.onclick = (e) => {
+loginOptionHetonia.onclick = (e) => {
     switchView(getCurrentView(), VIEWS.login, 500, 500, () => {
         loginViewOnSuccess = loginOptionsViewOnLoginSuccess
         loginViewOnCancel = loginOptionsViewOnLoginCancel

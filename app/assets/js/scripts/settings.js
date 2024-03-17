@@ -341,7 +341,7 @@ settingsNavDone.onclick = () => {
 const msftLoginLogger = LoggerUtil.getLogger('Microsoft Login')
 const msftLogoutLogger = LoggerUtil.getLogger('Microsoft Logout')
 
-document.getElementById('settingsAddGalaxyQuestAccount').onclick = (e) => {
+document.getElementById('settingsAddHetoniaAccount').onclick = (e) => {
     switchView(getCurrentView(), VIEWS.login, 500, 500, () => {
         loginViewOnCancel = VIEWS.settings
         loginViewOnSuccess = VIEWS.settings
@@ -518,7 +518,7 @@ function processLogOut(val, isLastAccount){
             ipcRenderer.send(MSFT_OPCODE.OPEN_LOGOUT, uuid, isLastAccount)
         })
     } else {
-        AuthManager.removeGalaxyquestAccount(uuid).then(() => {
+        AuthManager.removeHetoniaAccount(uuid).then(() => {
             if(!isLastAccount && uuid === prevSelAcc.uuid){
                 const selAcc = ConfigManager.getSelectedAccount()
                 refreshAuthAccountSelected(selAcc.uuid)
@@ -618,7 +618,7 @@ function refreshAuthAccountSelected(uuid){
 }
 
 const settingsCurrentMicrosoftAccounts = document.getElementById('settingsCurrentMicrosoftAccounts')
-const settingsCurrentGalaxyquestAccounts = document.getElementById('settingsCurrentGalaxyquestAccounts')
+const settingsCurrentHetoniaAccounts = document.getElementById('settingsCurrentHetoniaAccounts')
 
 /**
  * Add auth account elements for each one stored in the authentication database.
@@ -671,7 +671,7 @@ function populateAuthAccounts(){
     })
 
     settingsCurrentMicrosoftAccounts.innerHTML = microsoftAuthAccountStr
-    settingsCurrentGalaxyquestAccounts.innerHTML = mojangAuthAccountStr
+    settingsCurrentHetoniaAccounts.innerHTML = mojangAuthAccountStr
 }
 
 /**
@@ -1309,7 +1309,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/mc-galaxyquest/launcher/releases.atom',
+        url: 'https://github.com/mc-hetonia/launcher/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')

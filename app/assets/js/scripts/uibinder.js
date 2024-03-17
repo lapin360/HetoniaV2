@@ -366,7 +366,7 @@ async function validateSelectedAccount(){
                                 selectedAcc.microsoft.expires_at
                             )
                         } else {
-                            ConfigManager.addGalaxyQuestAuthAccount(selectedAcc.uuid, selectedAcc.accessToken, selectedAcc.username, selectedAcc.username)
+                            ConfigManager.addHetoniaAuthAccount(selectedAcc.uuid, selectedAcc.accessToken, selectedAcc.username, selectedAcc.username)
                         }
                         ConfigManager.save()
                         validateSelectedAccount()

@@ -489,18 +489,18 @@ body, button {
 /* Login form anchor styles. */
 #loginForm a {
     font-size: 12px;
-    color: #848484;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
     transition: 0.25s ease;
 }
 #loginForm a:hover,
 #loginForm a:focus {
-    color: #a2a2a2;
+    color: #ffffff;
     outline: none;
 }
 #loginForm a:active {
-    color: #8b8b8b;
+    color: #ffffff;
 }
 
 /* Logo on login form. */
@@ -541,7 +541,7 @@ body, button {
     font-family: 'Avenir Medium';
     font-weight: bold;
     font-size: 8px;
-    color: #6a00a3;
+    color: #a30072;
     width: 100%;
     text-align: right;
     position: absolute;
@@ -827,16 +827,16 @@ body, button {
     background: none;
     transition: 0.25s ease;
 }
-/* On hover and focus, add a grey border color. */
+/* On hover and focus, add a white border color. */
 #checkmarkContainer:hover input ~ *,
 #checkmarkContainer input:focus ~ * {
-    color: #a2a2a2;
-    border-color: #a2a2a2;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 /* On keydown, darken the checkbox a bit. */
 #checkmarkContainer input:active ~ *:not(#loginRememberText) {
-    color: #8d8d8d;
-    border-color: #8d8d8d;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 #checkmarkContainer[disabled] {
     pointer-events: none;
@@ -1004,7 +1004,7 @@ body, button {
     margin-bottom: 5px;
     font-size: medium;
 }
-.loginOptionGalaxyQuest {
+.loginOptionHetonia {
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(97, 52, 110, 0.57);
     border-radius: 5%;
@@ -1054,14 +1054,14 @@ body, button {
     padding: 2px 0px;
     font-size: 16px;
     font-weight: bold;
-    color: lightgrey;
+    color: white;
     cursor: pointer;
     outline: none;
     transition: 0.25s ease;
 }
 #loginOptionCancelButton:hover,
 #loginOptionCancelButton:focus {
-    text-shadow: 0px 0px 20px lightgrey;
+    text-shadow: 0px 0px 20px white;
 }
 #loginOptionCancelButton:active {
     text-shadow: 0px 0px 20px rgba(211, 211, 211, 0.75);
@@ -1149,7 +1149,7 @@ body, button {
     text-align: left;
     margin: 5px 0px;
     padding: 0px 20px;
-    color: grey;
+    color: white;
     cursor: pointer;
     outline: none;
     transition: 0.25s ease;
@@ -1416,7 +1416,7 @@ input:checked + .toggleSwitchSlider:before {
     width: 35%;
     height: 5px;
     margin: 15px 0px;
-    background: grey;
+    background: white;
     border-radius: 3px;
     position: relative;
 }
@@ -1511,7 +1511,7 @@ input:checked + .toggleSwitchSlider:before {
 .settingsFileSelDesc {
     font-size: 10px;
     margin: 20px 0px;
-    color: lightgrey;
+    color: white;
     width: 89%;
 }
 .settingsFileSelDesc strong {
@@ -1622,7 +1622,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 .settingsAuthAccountDetailTitle {
     font-size: 12px;
-    color: grey;
+    color: white;
     font-weight: bold;
     font-family: 'Avenir Medium';
 }
@@ -1709,7 +1709,7 @@ input:checked + .toggleSwitchSlider:before {
     padding-top: 10px;
 }
 #settingsGameResolutionCross {
-    color: grey;
+    color: white;
     padding: 0px 15px;
 }
 #settingsGameWidth,
@@ -1766,7 +1766,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* The version of the mod. */
 .settingsModVersion {
-    color: grey;
+    color: white;
     font-size: 10px;
 }
 
@@ -1801,7 +1801,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsShaderpackDesc {
     font-size: 10px;
     margin: 10px 0px;
-    color: lightgrey;
+    color: white;
     font-weight: bold;
     width: 89%;
 }
@@ -1923,7 +1923,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Style links on the Java tab. */
 #settingsTabJava a,
 .settingsChangelogText a {
-    color: rgba(202, 202, 202, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     transition: 0.25s ease;
     outline: none;
 }
@@ -2008,11 +2008,11 @@ input:checked + .toggleSwitchSlider:before {
 }
 .settingsMemoryStatusTitle {
     font-size: 12px;
-    color: grey;
+    color: white;
     font-weight: bold;
 }
 .settingsMemoryStatusValue {
-    color: lightgrey;
+    color: white;
     font-size: 16px;
 }
 
@@ -2020,14 +2020,14 @@ input:checked + .toggleSwitchSlider:before {
 #settingsMemoryDesc {
     font-size: 10px;
     margin: 20px 0px;
-    color: lightgrey;
+    color: white;
     font-weight: bold;
 }
 
 /* Status text which displays details on the selected executable. */
 #settingsJavaExecDetails {
     font-weight: bold;
-    color: grey;
+    color: white;
     font-size: 12px;
 }
 
@@ -2062,7 +2062,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsJVMOptsDesc {
     font-size: 10px;
     margin: 20px 0px;
-    color: lightgrey;
+    color: white;
     font-weight: bold;
     width: 89%;
 }
@@ -2152,7 +2152,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Current version text. */
 #settingsAboutCurrentVersionLine {
     font-size: 10px;
-    color: grey;
+    color: white;
     font-weight: bold;
 }
 
@@ -2166,7 +2166,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: none;
     font-size: 10px;
-    color: grey;
+    color: white;
     padding: 0px 5px;
     transition: 0.25s ease;
     outline: none;
@@ -2207,7 +2207,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Changelog header label. */
 .settingsChangelogLabel {
     font-size: 12px;
-    color: grey;
+    color: white;
     font-weight: bold;
 }
 
@@ -2351,7 +2351,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Current version text. */
 #settingsUpdateVersionLine {
     font-size: 10px;
-    color: grey;
+    color: white;
     font-weight: bold;
 }
 
@@ -2633,7 +2633,7 @@ input:checked + .toggleSwitchSlider:before {
     margin: 0 auto;
 }
 #newsArticleContentScrollable a {
-    color: rgba(202, 202, 202, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     transition: 0.25s ease;
     outline: none;
 }
@@ -2642,7 +2642,7 @@ input:checked + .toggleSwitchSlider:before {
     color: rgba(255, 255, 255, 0.75);
 }
 #newsArticleContentScrollable a:active {
-    color: rgba(165, 165, 165, 0.75);
+    color: rgba(255, 255, 255, 0.75);
 }
 #newsArticleContentScrollable::-webkit-scrollbar {
     width: 2px;
@@ -2652,7 +2652,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 #newsArticleContentScrollable::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.50);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
 }
 .bbCodeSpoilerButton {
     background: none;
@@ -2834,7 +2834,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 0%;
     left: 0%;
     border-radius: 50%;
-    box-shadow: 0 0 15px #740bca;
+    box-shadow: 0 0 15px #0b5eca;
     animation: glow-grow 4s ease-out infinite;
     background: rgba(0, 0, 0, 0.15);
 }
@@ -2850,7 +2850,7 @@ input:checked + .toggleSwitchSlider:before {
     width: 100px;
     height: 15px;
     background-color: rgb(0, 0, 0);
-    color: #cc16e4;
+    color: #168be4;
     text-align: center;
     border-radius: 4px;
     padding: 2px;
@@ -3111,10 +3111,10 @@ input:checked + .toggleSwitchSlider:before {
 /* Discord icon colors. */
 #discordSVG:hover,
 #discordURL:focus #discordSVG {
-    fill: #7288d9;
+    fill: #4073d2;
 }
 #discordSVG:active {
-    fill: #657ac4;
+    fill: #4364d9;
 }
 
 /*******************************************************************************
@@ -3241,7 +3241,7 @@ input:checked + .toggleSwitchSlider:before {
     cursor: pointer;
     font-weight: 900;
     letter-spacing: 2px;
-    text-shadow: 0px 0px 0px #9e33e6;
+    text-shadow: 0px 0px 0px #3345e6;
     font-size: 20px;
     padding: 0px;
     transition: 0.25s ease;
@@ -3249,7 +3249,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 #launch_button:hover,
 #launch_button:focus {
-    text-shadow: 0px 0px 20px #23014b, 0px 0px 20px #3f1ba1;
+    text-shadow: 0px 0px 20px #0677ab, 0px 0px 20px #2f02ab;
     animation: none;
 }
 #launch_button:active {
@@ -3277,7 +3277,7 @@ input:checked + .toggleSwitchSlider:before {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #001f3f, #003366, #24004e, #190033, #000000, #190033, #24004e, #003366, #001f3f);
+    background: radial-gradient(circle, rgba(159,12,124,1) 0%, rgba(92,9,121,1) 50%, rgba(0,212,255,1) 100%);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -3293,11 +3293,11 @@ input:checked + .toggleSwitchSlider:before {
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: #9b9b9b36
 }
 
 .glow-on-hover:active:after {
-    background: #000;
+    background: #9b9b9b36;
 }
 
 .glow-on-hover:hover:before {
@@ -3305,7 +3305,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 
 .glow-on-hover:after {
-    background: #000;
+    background: #9b9b9b36;
     z-index: -1;
     content: '';
     position: absolute;
@@ -3844,7 +3844,7 @@ input:checked + .toggleSwitchSlider:before {
   left: -100%;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, transparent, #6c009e);
+  background: linear-gradient(90deg, transparent, #0481c0);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -3862,7 +3862,7 @@ input:checked + .toggleSwitchSlider:before {
   right: 0;
   width: 3px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #6c009e);
+  background: linear-gradient(180deg, transparent, #0481c0);
   animation: btn-anim2 1s linear infinite;
   animation-delay: .25s
 }
@@ -3881,7 +3881,7 @@ input:checked + .toggleSwitchSlider:before {
   right: -100%;
   width: 100%;
   height: 3px;
-  background: linear-gradient(270deg, transparent, #6c009e);
+  background: linear-gradient(270deg, transparent, #0481c0);
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s
 }
@@ -3900,7 +3900,7 @@ input:checked + .toggleSwitchSlider:before {
   left: 0;
   width: 3px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #6c009e);
+  background: linear-gradient(360deg, transparent, #0481c0);
   animation: btn-anim4 1s linear infinite;
   animation-delay: .75s
 }

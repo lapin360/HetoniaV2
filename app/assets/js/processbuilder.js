@@ -86,11 +86,11 @@ class ProcessBuilder {
         child.stderr.setEncoding('utf8')
 
         child.stdout.on('data', (data) => {
-            data.trim().split('\n').forEach(x => console.log(`\x1b[32m[GalaxyQuest | Minecraft]\x1b[0m ${x}`))
+            data.trim().split('\n').forEach(x => console.log(`\x1b[32m[Hetonia | Minecraft]\x1b[0m ${x}`))
             
         })
         child.stderr.on('data', (data) => {
-            data.trim().split('\n').forEach(x => console.log(`\x1b[31m[GalaxyQuest | Minecraft]\x1b[0m ${x}`))
+            data.trim().split('\n').forEach(x => console.log(`\x1b[31m[Hetonia | Minecraft]\x1b[0m ${x}`))
         })
         child.on('close', (code, signal) => {
             logger.info('Exited with code', code)
@@ -345,7 +345,7 @@ class ProcessBuilder {
 
         // Java Arguments
         if(process.platform === 'darwin'){
-            args.push('-Xdock:name=GalaxyQuest')
+            args.push('-Xdock:name=Hetonia')
             args.push('-Xdock:icon=' + path.join(__dirname, '..', 'images', 'minecraft.icns'))
         }
         args.push('-Xmx' + ConfigManager.getMaxRAM(this.server.rawServer.id))
@@ -393,7 +393,7 @@ class ProcessBuilder {
         }
         // Java Arguments
         if(process.platform === 'darwin'){
-            args.push('-Xdock:name=GalaxyQuest')
+            args.push('-Xdock:name=Hetonia')
             args.push('-Xdock:icon=' + path.join(__dirname, '..', 'images', 'minecraft.icns'))
         }
         args.push('-Xmx' + ConfigManager.getMaxRAM(this.server.rawServer.id))
@@ -495,7 +495,7 @@ class ProcessBuilder {
                             val = args[i].replace(argDiscovery, tempNativePath)
                             break
                         case 'launcher_name':
-                            val = args[i].replace(argDiscovery, 'GalaxyQuest')
+                            val = args[i].replace(argDiscovery, 'Hetonia')
                             break
                         case 'launcher_version':
                             val = args[i].replace(argDiscovery, this.launcherVersion)
