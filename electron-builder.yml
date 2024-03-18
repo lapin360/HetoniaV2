@@ -2,7 +2,7 @@ appId: 'hetonia'
 productName: 'Hetonia Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2024 Hetonia'
+copyright: 'Copyright © 2024 Hetonia Studios'
 
 asar: true
 compression: 'maximum'
