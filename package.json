@@ -1,13 +1,13 @@
 {
-  "name": "hetonia",
+  "name": "wynaria",
   "version": "1.0.0",
-  "productName": "Hetonia",
-  "description": "Launcher pour le serveur de Hetonia",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), Ulysse2211 et Pierre",
+  "productName": "Wynaria",
+  "description": "Launcher Wynaria MH4U",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), lelapin2",
   "license": "MIT",
-  "homepage": "https://hetonia.fr",
+  "homepage": "https://wynaria.fr",
   "bugs": {
-    "url": "https://support.hetonia.fr/"
+    "url": "https://support.wynaria.fr/"
   },
   "private": true,
   "main": "index.js",

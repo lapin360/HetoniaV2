@@ -1,8 +1,8 @@
-appId: 'hetonia'
-productName: 'Hetonia Launcher'
+appId: 'wynaria'
+productName: 'Wynaria Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2024 Hetonia Studios'
+copyright: 'Copyright © 2024 Wynaria Studios'
 
 asar: true
 compression: 'maximum'
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'deb'
-  maintainer: 'Hetonia'
-  vendor: 'Hetonia'
-  synopsis: 'Hetonia Launcher'
-  description: 'Launcher pour le serveur Hetonia'
+  maintainer: 'wynaria'
+  vendor: 'Wynaria'
+  synopsis: 'Wynaria Launcher'
+  description: 'Launcher Wynaria !'
   category: 'Game'
 
 

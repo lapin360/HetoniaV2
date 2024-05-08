@@ -1,20 +1,20 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "Hetonia"
+title = "Wynaria"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/mc-hetonia/launcher"
-mediaTwitterURL = "https://twitter.hetonia.fr/"
-mediaInstagramURL = "https://instagram.hetonia.Fr/"
-mediaYouTubeURL = "https://youtube.hetonia.fr/"
-mediaDiscordURL = "https://discord.gg/hetonia"
+mediaGitHubURL = "https://github.com/mc-wynaria/launcher"
+mediaTwitterURL = "https://twitter.wynaria.fr/"
+mediaInstagramURL = "https://instagram.wynaria.Fr/"
+mediaYouTubeURL = "https://youtube.wynaria.fr/"
+mediaDiscordURL = "https://discord.gg/wynaria"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/mc-hetonia/launcher"
-supportLink = "https://support.hetonia.fr"
+sourceGithubLink = "https://github.com/mc-wynaria/launcher"
+supportLink = "https://support.wynaria.fr"
 
 [ejs.welcome]
-welcomeHeader = "Rejoignez Hetonia !"
-welcomeDescription = "Hetonia est un serveur de type Survie Custom avec des dimensions custom et Mini-jeux en version récente mais avec un PvP incroyable !"
+welcomeHeader = "Rejoignez Wynaria !"
+welcomeDescription = "Wynaria est un serveur de type Survie Custom avec des dimensions custom et du rp comme du j'amais vue !"
 welcomeDescCTA = "Lancez-vous dans l'aventure !"
