@@ -19,7 +19,7 @@ const loginButton           = document.getElementById('loginButton')
 const loginForm             = document.getElementById('loginForm')
 
 // Control variables.
-let lu = false, lp = false, account_type = 0 // Account type: 0 Mojang, 1 Hetonia
+let lu = false, lp = false, account_type = 0 // Account type: 0 Mojang, 1 wynaria
 
 
 /**
@@ -232,7 +232,7 @@ loginButton.addEventListener('click', () => {
             toggleOverlay(true)
         })
     } else {
-        AuthManager.addHetoniaAccount(loginUsername.value, loginPassword.value).then((value) => {
+        AuthManager.addwynariaAccount(loginUsername.value, loginPassword.value).then((value) => {
             updateSelectedAccount(value)
             loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.loggingIn'), Lang.queryJS('login.success'))
             $('.circle-loader').toggleClass('load-complete')

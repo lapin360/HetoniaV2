@@ -1,6 +1,6 @@
 const loginOptionsCancelContainer = document.getElementById('loginOptionCancelContainer')
 const loginOptionMicrosoft = document.getElementById('loginOptionMicrosoft')
-const loginOptionHetonia = document.getElementById('loginOptionHetonia');
+const loginOptionWynaria = document.getElementById('loginOptionWynaria');
 const loginOptionsCancelButton = document.getElementById('loginOptionCancelButton')
 
 let loginOptionsCancellable = false
@@ -28,7 +28,7 @@ loginOptionMicrosoft.onclick = (e) => {
     })
 }
 
-loginOptionHetonia.onclick = (e) => {
+loginOptionWynaria.onclick = (e) => {
     switchView(getCurrentView(), VIEWS.login, 500, 500, () => {
         loginViewOnSuccess = loginOptionsViewOnLoginSuccess
         loginViewOnCancel = loginOptionsViewOnLoginCancel
