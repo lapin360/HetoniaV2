@@ -17,7 +17,7 @@ const log = LoggerUtil.getLogger('AuthManager')
 // Functions
 
 /**
- * Add a Wynaria account. This will authenticate the given credentials with Wynaria's
+ * Add a Hetonia account. This will authenticate the given credentials with Hetonia's
  * authserver. The resultant data will be stored as an auth account in the
  * configuration database.
  * 
@@ -25,9 +25,9 @@ const log = LoggerUtil.getLogger('AuthManager')
  * @param {string} password The account password.
  * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
  */
-exports.addWynariaAccount = async function(username, password) {
+exports.addHetoniaAccount = async function(username, password) {
     try {
-        const client = new AuthClient('https://wynaria.fr')
+        const client = new AuthClient('https://hetonia.fr')
         let result = await client.login(username, password)
 
         console.log(result)
@@ -43,7 +43,7 @@ exports.addWynariaAccount = async function(username, password) {
         }
 
 
-        const ret = ConfigManager.addWynariaAuthAccount(result.uuid, result.accessToken, result.username, result.username)
+        const ret = ConfigManager.addHetoniaAuthAccount(result.uuid, result.accessToken, result.username, result.username)
         if(ConfigManager.getClientToken() == null){
             ConfigManager.setClientToken(result.accessToken)
         }
@@ -182,14 +182,14 @@ exports.removeMicrosoftAccount = async function(uuid){
  * @param {string} uuid The UUID of the account to be removed.
  * @returns {Promise.<void>} Promise which resolves to void when the action is complete.
  */
-exports.removeWynariaAccount = async function(uuid){
+exports.removeHetoniaAccount = async function(uuid){
     try {
         const authAcc = ConfigManager.getAuthAccount(uuid)
         ConfigManager.removeAuthAccount(uuid)
         ConfigManager.save()
         return Promise.resolve()
     } catch (err){
-        log.error('Erreur lors de la suppresion du compte Wynaria: ', err)
+        log.error('Erreur lors de la suppresion du compte Hetonia: ', err)
         return Promise.reject(err)
     }
 }
@@ -306,7 +306,7 @@ exports.validateSelected = async function(){
     if(current.type === 'microsoft') {
         return await validateSelectedMicrosoftAccount()
     } else {
-        return await validateSelectedWynariaAccount()
+        return await validateSelectedHetoniaAccount()
     }
     
 }

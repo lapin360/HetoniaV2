@@ -4,17 +4,17 @@
 title = "Wynaria"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/mc-wynaria/launcher"
+mediaGitHubURL = "https://github.com/mc-Wynaria/launcher"
 mediaTwitterURL = "https://twitter.wynaria.fr/"
-mediaInstagramURL = "https://instagram.wynaria.Fr/"
-mediaYouTubeURL = "https://youtube.wynaria.fr/"
-mediaDiscordURL = "https://discord.gg/wynaria"
+mediaInstagramURL = "https://instagram.Wynaria.Fr/"
+mediaYouTubeURL = "https://youtube.Wynaria.fr/"
+mediaDiscordURL = "https://discord.gg/Wynaria"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/mc-wynaria/launcher"
-supportLink = "https://support.wynaria.fr"
+sourceGithubLink = "https://github.com/mc-Wynaria/launcher"
+supportLink = "https://support.Wynaria.fr"
 
 [ejs.welcome]
-welcomeHeader = "Rejoignez Wynaria !"
-welcomeDescription = "Wynaria est un serveur de type Survie Custom avec des dimensions custom et du rp comme du j'amais vue !"
+welcomeHeader = "Rejoignez wynaria !"
+welcomeDescription = "Wynaria est un serveur de type Survie Custom avec des dimensions custom et Mini-jeux en version récente mais avec un PvP incroyable ! Hébergé par by-hoster.net"
 welcomeDescCTA = "Lancez-vous dans l'aventure !"

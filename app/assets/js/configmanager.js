@@ -7,7 +7,7 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.wynaria')
+const dataPath = path.join(sysRoot, '.hetonia')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 
@@ -314,7 +314,7 @@ exports.getAuthAccount = function(uuid){
 }
 
 /**
- * Adds an authenticated wynaria account to the database to be stored.
+ * Adds an authenticated hetonia account to the database to be stored.
  * 
  * @param {string} uuid The uuid of the authenticated account.
  * @param {string} accessToken The accessToken of the authenticated account.
@@ -323,10 +323,10 @@ exports.getAuthAccount = function(uuid){
  * 
  * @returns {Object} The authenticated account object created by this action.
  */
-exports.addwynariaAuthAccount = function(uuid, accessToken, username, displayName){
+exports.addHetoniaAuthAccount = function(uuid, accessToken, username, displayName){
     config.selectedAccount = uuid
     config.authenticationDatabase[uuid] = {
-        type: 'wynaria',
+        type: 'hetonia',
         accessToken,
         username: username.trim(),
         uuid: uuid.trim(),
