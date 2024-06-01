@@ -27,7 +27,7 @@ const log = LoggerUtil.getLogger('AuthManager')
  */
 exports.addHetoniaAccount = async function(username, password) {
     try {
-        const client = new AuthClient('https://hetonia.fr')
+        const client = new AuthClient('https://wynaria.fr')
         let result = await client.login(username, password)
 
         console.log(result)
